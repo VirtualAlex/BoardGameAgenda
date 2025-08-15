@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -203,30 +207,6 @@
             padding-bottom: 0.5rem;
         }
 
-        .recent-posts {
-            list-style: none;
-        }
-
-        .recent-posts li {
-            padding: 0.75rem 0;
-            border-bottom: 1px solid #eee;
-        }
-
-        .recent-posts li:last-child {
-            border-bottom: none;
-        }
-
-        .recent-posts a {
-            color: #000;
-            text-decoration: none;
-            font-size: 0.95rem;
-            line-height: 1.4;
-        }
-
-        .recent-posts a:hover {
-            color: #666;
-        }
-
         .instagram-feed {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -340,50 +320,24 @@
 
         <div class="main-content">
             <section class="featured-articles">
+                {% for post in site.posts limit:3 %}
                 <article class="article-card">
                     <div class="article-content">
                         <h2 class="article-title">
-                            <a href="#">Wingspan: A Masterpiece of Engine Building and Bird Watching</a>
+                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                         </h2>
                         <div class="article-meta">
-                            By StrategyGuru • December 12, 2024
+                            By {{ post.author | default: "Board Game Agenda" }} • {{ post.date | date: "%B %d, %Y" }}
                         </div>
                         <p class="article-excerpt">
-                            Elizabeth Hargrave's debut design has taken the board gaming world by storm. We dive deep into what makes Wingspan such a special experience, from its gorgeous artwork to its satisfying gameplay mechanics.
+                            {{ post.excerpt | strip_html | truncate: 120 }}
                         </p>
-                        <a href="#" class="article-category">Review</a>
+                        {% if post.categories.first %}
+                            <a href="#" class="article-category">{{ post.categories.first }}</a>
+                        {% endif %}
                     </div>
                 </article>
-
-                <article class="article-card">
-                    <div class="article-content">
-                        <h2 class="article-title">
-                            <a href="#">Mastering Terraforming Mars: Advanced Corporation Strategies</a>
-                        </h2>
-                        <div class="article-meta">
-                            By MarsExplorer • December 10, 2024
-                        </div>
-                        <p class="article-excerpt">
-                            Each corporation in Terraforming Mars offers unique advantages. Learn how to maximize your engine with detailed strategies for the most popular corporations and when to pivot your strategy.
-                        </p>
-                        <a href="#" class="article-category">Guide</a>
-                    </div>
-                </article>
-
-                <article class="article-card">
-                    <div class="article-content">
-                        <h2 class="article-title">
-                            <a href="#">The Rise of Legacy Games: How Pandemic Legacy Changed Everything</a>
-                        </h2>
-                        <div class="article-meta">
-                            By LegacyLover • December 8, 2024
-                        </div>
-                        <p class="article-excerpt">
-                            Legacy mechanics have revolutionized board gaming by creating persistent, evolving experiences. We trace the history of this innovative format and its impact on game design.
-                        </p>
-                        <a href="#" class="article-category">Feature</a>
-                    </div>
-                </article>
+                {% endfor %}
             </section>
 
             <aside class="sidebar">
