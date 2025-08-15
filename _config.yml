@@ -1,0 +1,32 @@
+title: Board Game Agenda
+description: Your ultimate board game resource and review site
+url: "https://VirtualAlex.github.io"
+baseurl: "/boardgameagenda"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections for organized content
+collections:
+  games:
+    output: true
+    permalink: /:collection/:name/
+  reviews:
+    output: true
+    permalink: /:collection/:name/
+  guides:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+header_pages:
+  - games.md
+  - reviews.md
+  - guides.md
+  - about.md
+
+github_username: VirtualAlex

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game Agenda - Your Board Game Blog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8b4513 0%, #d2691e 100%);
+            color: white;
+            padding: 2rem 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .logo p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        .admin-panel {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            border-left: 4px solid #8b4513;
+        }
+
+        .admin-toggle {
+            background: #8b4513;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .admin-content {
+            display: none;
+        }
+
+        .admin-content.active {
+            display: block;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #8b4513;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e1e8ed;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #8b4513;
+        }
+
+        textarea {
+            height: 200px;
+            resize: vertical;
+        }
+
+        .btn {
+            background: #8b4513;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background: #654321;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+        }
+
+        .btn-danger:hover {
+            background: #c82333;
+        }
+
+        main {
+            margin: 2rem 0;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+        }
+
+        .blog-posts {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .widget {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+
+        .widget h3 {
+            color: #8b4513;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .post {
+            padding: 2rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .post:last-child {
+            border-bottom: none;
+        }
+
+        .post-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .post-title {
+            color: #8b4513;
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .post-meta {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .post-category {
+            background: #8b4513;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-decoration: none;
+        }
+
+        .post-content {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .post-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .post-actions button {
+            padding: 6px 12px;
+            font-size: 0.9rem;
+        }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            background: #f8f9fa;
+            color: #8b4513;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            text-decoration: none;
+            border: 1px solid #e9ecef;
+        }
+
+        .tag:hover {
+            background: #8b4513;
+            color: white;
+        }
+
+        .recent-posts {
+            list-style: none;
+        }
+
+        .recent-posts li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .recent-posts li:last-child {
+            border-bottom: none;
+        }
+
+        .recent-posts a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .recent-posts a:hover {
+            color: #8b4513;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+            
+            .header-content {
+                text-align: center;
+            }
+            
+            nav ul {
+                justify-content: center;
+                margin-top: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🎲 Board Game Agenda</h1>
+                    <p>Your ultimate guide to board game adventures</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#guides">Guides</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="admin-panel">
+            <button class="admin-toggle" onclick="toggleAdmin()">📝 Content Management</button>
+            <div class="admin-content" id="adminContent">
+                <h3>Create New Post</h3>
+                <form id="postForm">
+                    <div class="form-group">
+                        <label for="postTitle">Title</label>
+                        <input type="text" id="postTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="postCategory">Category</label>
+                        <select id="postCategory">
+                            <option value="review">Review</option>
+                            <option value="strategy">Strategy Guide</option>
+                            <option value="news">News</option>
+                            <option value="opinion">Opinion</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="postContent">Content</label>
+                        <textarea id="postContent" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Publish Post</button>
+                </form>
+            </div>
+        </div>
+
+        <main>
+            <div class="blog-posts" id="blogPosts">
+                <!-- Posts will be dynamically inserted here -->
+            </div>
+
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>🎯 Popular Categories</h3>
+                    <div class="tag-cloud">
+                        <a href="#" class="tag">Strategy Games</a>
+                        <a href="#" class="tag">Party Games</a>
+                        <a href="#" class="tag">Cooperative</a>
+                        <a href="#" class="tag">Worker Placement</a>
+                        <a href="#" class="tag">Deck Building</a>
+                        <a href="#" class="tag">Euro Games</a>
+                        <a href="#" class="tag">Miniatures</a>
+                        <a href="#" class="tag">Abstract</a>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h3>📚 Recent Posts</h3>
+                    <ul class="recent-posts" id="recentPosts">
+                        <!-- Recent posts will be populated here -->
+                    </ul>
+                </div>
+
+                <div class="widget">
+                    <h3>🎲 Game of the Month</h3>
+                    <p><strong>Wingspan</strong> - A beautiful engine-building game about birds. Perfect for players who love strategy with a nature theme.</p>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Board Game Agenda. Rolling dice and creating memories since 2024.</p>
+        </div>
+    </footer>
+
+    <script>
+        let posts = JSON.parse(localStorage.getItem('blogPosts')) || [];
+        let postIdCounter = posts.length > 0 ? Math.max(...posts.map(p => p.id)) + 1 : 1;
+
+        // Sample posts if none exist
+        if (posts.length === 0) {
+            posts = [
+                {
+                    id: 1,
+                    title: "Dominion Expansions: Which Sets Are Worth Your Gold?",
+                    category: "review",
+                    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris viverra veniam sit amet lacus cursus blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+                    date: new Date(Date.now() - 86400000).toLocaleDateString(),
+                    author: "BoardGameMaster"
+                },
+                {
+                    id: 2,
+                    title: "Mastering Worker Placement: Advanced Strategies for Agricola",
+                    category: "strategy",
+                    content: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.",
+                    date: new Date(Date.now() - 172800000).toLocaleDateString(),
+                    author: "StrategyGuru"
+                },
+                {
+                    id: 3,
+                    title: "Pandemic Legacy: Season 1 - A Journey Through Cooperative Excellence",
+                    category: "review",
+                    content: "Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Mauris sollicitudin fermentum libero. Praesent nonummy mi in odio. Nunc interdum lacus sit amet orci. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu quis ante.",
+                    date: new Date(Date.now() - 259200000).toLocaleDateString(),
+                    author: "CoopCritic"
+                }
+            ];
+            postIdCounter = 4;
+        }
+
+        function toggleAdmin() {
+            const adminContent = document.getElementById('adminContent');
+            adminContent.classList.toggle('active');
+        }
+
+        function getCategoryColor(category) {
+            const colors = {
+                'review': '#8b4513',
+                'strategy': '#2e8b57',
+                'news': '#dc143c',
+                'opinion': '#9932cc'
+            };
+            return colors[category] || '#8b4513';
+        }
+
+        function displayPosts() {
+            const container = document.getElementById('blogPosts');
+            const recentContainer = document.getElementById('recentPosts');
+            
+            if (posts.length === 0) {
+                container.innerHTML = '<div class="post"><h2>No posts yet</h2><p>Create your first post using the content management panel above!</p></div>';
+                recentContainer.innerHTML = '<li>No posts yet</li>';
+                return;
+            }
+
+            // Sort posts by ID (newest first)
+            const sortedPosts = [...posts].sort((a, b) => b.id - a.id);
+
+            // Display main posts
+            container.innerHTML = sortedPosts.map(post => `
+                <article class="post">
+                    <div class="post-header">
+                        <div>
+                            <h2 class="post-title">${post.title}</h2>
+                            <div class="post-meta">
+                                By ${post.author} • ${post.date} • 
+                                <span class="post-category" style="background-color: ${getCategoryColor(post.category)}">${post.category}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p>${post.content}</p>
+                    </div>
+                    <div class="post-actions">
+                        <button class="btn btn-danger" onclick="deletePost(${post.id})">Delete</button>
+                    </div>
+                </article>
+            `).join('');
+
+            // Display recent posts in sidebar
+            recentContainer.innerHTML = sortedPosts.slice(0, 5).map(post => `
+                <li><a href="#post-${post.id}">${post.title}</a></li>
+            `).join('');
+        }
+
+        function createPost(title, category, content) {
+            const post = {
+                id: postIdCounter++,
+                title: title,
+                category: category,
+                content: content,
+                date: new Date().toLocaleDateString(),
+                author: "Admin"
+            };
+
+            posts.push(post);
+            localStorage.setItem('blogPosts', JSON.stringify(posts));
+            displayPosts();
+        }
+
+        function deletePost(id) {
+            if (confirm('Are you sure you want to delete this post?')) {
+                posts = posts.filter(post => post.id !== id);
+                localStorage.setItem('blogPosts', JSON.stringify(posts));
+                displayPosts();
+            }
+        }
+
+        // Form submission
+        document.getElementById('postForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const title = document.getElementById('postTitle').value;
+            const category = document.getElementById('postCategory').value;
+            const content = document.getElementById('postContent').value;
+
+            if (title && content) {
+                createPost(title, category, content);
+                
+                // Clear form
+                this.reset();
+                
+                // Close admin panel
+                document.getElementById('adminContent').classList.remove('active');
+                
+                alert('Post published successfully!');
+            }
+        });
+
+        // Initialize
+        displayPosts();
+    </script>
+</body>
+</html>
