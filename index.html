@@ -324,6 +324,21 @@
         </div>
     </header>
 
+<!-- Add this to your hero article section -->
+{% assign latest_post = site.posts.first %}
+{% if latest_post %}
+<article class="hero-article">
+    <div class="hero-content">
+        <h1 class="hero-title">{{ latest_post.title }}</h1>
+        <div class="hero-meta">
+            By {{ latest_post.author }} • {{ latest_post.date | date: "%B %d, %Y" }} • {{ latest_post.categories.first }}
+        </div>
+        <p class="hero-excerpt">{{ latest_post.excerpt }}</p>
+        <a href="{{ latest_post.url | relative_url }}" class="read-more">Read Full Article</a>
+    </div>
+</article>
+{% endif %}
+
     <div class="container">
         <div class="admin-panel">
             <button class="admin-toggle" onclick="toggleAdmin()">📝 Content Management</button>
