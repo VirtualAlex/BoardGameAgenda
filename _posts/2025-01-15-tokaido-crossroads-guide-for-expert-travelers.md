@@ -4,6 +4,7 @@ title: "Tokaido Crossroads Guide for Expert Travelers"
 date: 2025-01-15
 categories: [guides]
 tags: [guide, tokaido]
+hero_image: /assets/images/posts/2025-01-15-tokaido-crossroads-guide-for-expert-travelers/tokaido-hero.jpg
 ---
 
 Tokaido was one of the first board games I purchased when I started my transition from Magic the Gathering to tabletop gaming. My collection started humbly with Coup, Love Letter, Sushi Go and Tokaido.
