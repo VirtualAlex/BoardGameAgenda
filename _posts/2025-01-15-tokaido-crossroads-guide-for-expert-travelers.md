@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tokaido Crossroads Guide for Expert Travelers"
-date: 2025-01-15
+date: 2025-09-10
 categories: [guides]
 tags: [guide, tokaido]
 hero_image: /assets/images/posts/2025-01-15-tokaido-crossroads-guide-for-expert-travelers/tokaido-hero.jpg

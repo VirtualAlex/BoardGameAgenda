@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tokaido Character Guide (Crossroads and Matsuri)"
-date: 2025-01-10
+date: 2025-09-10
 categories: [guides]
 tags: [guide, tokaido]
 hero_image: /assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/tokaido-characters-hero.jpg
