@@ -134,9 +134,10 @@
         }
 
         .post-content img {
-            max-width: 100%;
+            max-width: calc(100% + 400px);
+            width: calc(100% + 400px);
             height: auto;
-            margin: 2rem 0;
+            margin: 2rem -200px;
             border: 1px solid #cccccc;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
@@ -196,9 +197,23 @@
                 font-size: 2rem;
             }
 
+            .post-content img {
+                max-width: calc(100% + 80px);
+                width: calc(100% + 80px);
+                margin: 2rem -40px;
+            }
+
             nav ul {
                 flex-wrap: wrap;
                 gap: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .post-content img {
+                max-width: 100%;
+                width: 100%;
+                margin: 2rem 0;
             }
         }
     </style>
