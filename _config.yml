@@ -1,7 +1,7 @@
 title: Board Game Agenda
 description: Your ultimate board game resource and review site
-url: "https://VirtualAlex.github.io"
-baseurl: "/boardgameagenda"
+url: "https://boardgameagenda.com"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
