@@ -1,7 +1,3 @@
-
----
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -127,80 +123,6 @@
             color: white;
         }
 
-        .main-content {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .featured-articles {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .article-card {
-            border: 1px solid #cccccc;
-            background: white;
-            overflow: hidden;
-            transition: box-shadow 0.3s;
-        }
-
-        .article-card:hover {
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-
-        .article-content {
-            padding: 2rem;
-        }
-
-        .article-title {
-            font-size: 1.5rem;
-            color: #000;
-            margin-bottom: 0.75rem;
-            line-height: 1.3;
-        }
-
-        .article-title a {
-            color: #000;
-            text-decoration: none;
-        }
-
-        .article-title a:hover {
-            color: #666;
-        }
-
-        .article-meta {
-            color: #666;
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid #eee;
-        }
-
-        .article-excerpt {
-            color: #333;
-            line-height: 1.6;
-            margin-bottom: 1rem;
-        }
-
-        .article-category {
-            display: inline-block;
-            border: 1px solid #000;
-            color: #000;
-            padding: 0.25rem 0.75rem;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            text-decoration: none;
-        }
-
-        .article-category:hover {
-            background: #000;
-            color: white;
-        }
-
         /* All Posts Grid */
         .all-posts {
             margin: 4rem 0;
@@ -270,64 +192,6 @@
             line-height: 1.5;
         }
 
-        .sidebar {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-
-        .widget {
-            border: 1px solid #cccccc;
-            background: white;
-            padding: 2rem;
-        }
-
-        .widget h3 {
-            color: #000;
-            margin-bottom: 1.5rem;
-            font-size: 1.3rem;
-            border-bottom: 1px solid #cccccc;
-            padding-bottom: 0.5rem;
-        }
-
-        .instagram-feed {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 0.5rem;
-        }
-
-        .instagram-post {
-            aspect-ratio: 1;
-            background: #f5f5f5;
-            border: 1px solid #eee;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.8rem;
-            color: #666;
-            text-align: center;
-        }
-
-        .tag-cloud {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .tag {
-            border: 1px solid #cccccc;
-            color: #000;
-            padding: 0.4rem 0.8rem;
-            font-size: 0.85rem;
-            text-decoration: none;
-            transition: all 0.3s;
-        }
-
-        .tag:hover {
-            background: #000;
-            color: white;
-        }
-
         footer {
             background: #000;
             color: white;
@@ -393,59 +257,7 @@
     </header>
 
     <div class="container">
-        <!-- Hero Article - Latest Post -->
-        {% assign latest_post = site.posts.first %}
-        <article class="hero-article">
-            {% if latest_post.hero_image %}
-                <img src="{{ latest_post.hero_image }}" alt="{{ latest_post.title }}" class="hero-image">
-            {% endif %}
-            <div class="hero-content">
-                <h1 class="hero-title">{{ latest_post.title }}</h1>
-                <div class="hero-meta">
-                    By {{ latest_post.author | default: "Board Game Agenda" }} • {{ latest_post.date | date: "%B %d, %Y" }} • 
-                    {% if latest_post.categories.first %}{{ latest_post.categories.first | capitalize }}{% endif %}
-                </div>
-                <p class="hero-excerpt">
-                    {% if latest_post.description %}
-                        {{ latest_post.description }}
-                    {% else %}
-                        {{ latest_post.excerpt | strip_html | truncate: 200 }}
-                    {% endif %}
-                </p>
-                <a href="{{ latest_post.url | relative_url }}" class="read-more">Read Full Article</a>
-            </div>
-        </article>
-
-        <!-- All Other Posts Grid -->
-        <section class="all-posts">
-            <h2 class="section-title">All Posts</h2>
-            <div class="posts-grid">
-                {% assign remaining_posts = site.posts | offset: 1 %}
-                {% for post in remaining_posts limit:12 %}
-                <article class="post-card">
-                    {% if post.hero_image %}
-                        <img src="{{ post.hero_image }}" alt="{{ post.title }}" class="post-image">
-                    {% endif %}
-                    <div class="post-content">
-                        <h3 class="post-title">
-                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                        </h3>
-                        <div class="post-meta">
-                            {{ post.date | date: "%B %d, %Y" }} • 
-                            {% if post.categories.first %}{{ post.categories.first | capitalize }}{% endif %}
-                        </div>
-                        <p class="post-excerpt">
-                            {% if post.description %}
-                                {{ post.description | truncate: 100 }}
-                            {% else %}
-                                {{ post.excerpt | strip_html | truncate: 100 }}
-                            {% endif %}
-                        </p>
-                    </div>
-                </article>
-                {% endfor %}
-            </div>
-        </section>
+        {{ content }}
     </div>
 
     <footer>
