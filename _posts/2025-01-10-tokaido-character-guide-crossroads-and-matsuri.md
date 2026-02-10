@@ -23,7 +23,7 @@ Make sure to check out my [Tokaido Crossroads Guide for Expert Travelers](/tokai
 9. [Jirocho (Power 28.5)](#jirocho)  
 10. [Chuubei (Power 27.5)](#chuubei)  
 11. [Titia (Power 27)](#titia)  
-12. [Matsumi (Power 27)](#matsumi)  
+12. [Mutsumi (Power 27)](#matsumi)  
 13. [Mitsukuni (Power 27)](#mitsukuni)  
 14. [Yashima (Power 27)](#yashima)  
 15. [Kushinada (Power 27)](#kushinada)  
@@ -254,7 +254,7 @@ Chihaya is a straight-forward character who is guaranteed to get 3 hot springs c
 
 The Perfection calligraphy might be a good first purchase since she is a favorite to win Bather. Try to shoot for Chatterbox as well, since it's free and she is poor. There isn't much to playing Chihaya other than spending your 3 starting coins wisely and don't go broke!
 
-![Hiroshige](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Hiroshige.jpg){: .character-image}
+<a name="hiroshige"></a>![Hiroshige](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Hiroshige.jpg){: .character-image}
 
 ## 24. Hiroshige the Artist
 
@@ -424,4 +424,347 @@ Sasayakko is a favorite to save about 3 coins at village stops over the course o
 
 ### Playing Sasayakko – Difficulty: Medium
 
-The problem is
+The problem is she has to have enough coins to fully buy two items, so you basically need to be walking into villages with 4 coins to truly feel comfortable. Gathering funds is very important with Sasayakko so take your cherry blossoms, eat cheap food and prioritize farmhouses to make sure her wallet is prepared for the villages.
+
+Sassy's first calligraphy should be Nostalgia for obvious reasons with Perfection second if you get the chance. Use the friendship amulet to land on villages other travelers are trying to block. The Health amulet could be used to create some very efficient stops letting you get some souvenirs and a Shodo/Emaki in the same move.
+
+<a name="gotozaemon"></a>![Gotozaemon](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Gotozaemon.jpg){: .character-image}
+
+## 16. Gotozaemon the Souvenir Seller
+
+**Set:** Crossroads
+**Ability:** Gain 1 coin at every panorama stop
+**Coins:** 0
+
+### Power: 27pts
+*(24 ability + 3 consistent)*
+
+It's important to know how many pano stops there are in a small vs large game. It's impossible to visit all of them, but important to know:
+
+- In a 3 player game there are 18 total pano stops
+- In a 4-5 player game there are 27 total pano stops
+
+An average character is entitled to:
+
+- 1/3 of the stops in a 3 player game, 6
+- 1/4 of the stops in a 4 player game, 6.75
+- 1/5 of the stop in a 5 player game, 5.4
+
+We can call this a 6 pano average, but because Goto can focus on panos while other players are not, I am giving him credit for 8 stops, which is why he is getting 24 for ability (8 coins worth) and not 18. Keep in mind he gets the coin when he stops at a panorama not when he gets a panorama card. So he gets +2 coins when he takes a cherry blossom, and 0 when he meets Anniabito. It should go without saying that you want to get as many cherry blossoms as possible because those value is insane.
+
+I wrestled with the idea of giving Goto +2 for panorama accomplishment boost, but he doesn't actually generate panorama card any faster than other characters. But don't let that stop you from completing them anyway!
+
+### Playing Gotozaemon – Difficulty: Medium
+
+Goto has one major problem, he starts with 0 coins. His early game is a little rough. The first three stops in the journey are village, temple, and encounter. Goto cannot even visit the temple or village and cannot afford a calligraphy card. So his first two choices are to meet a friend or skip to the next pano to grab cherry blossom. I suggest you skip to the cherry blossom because then it sets you up for a farmhouse on your next move. This combo starts you off with a comfortable 5 coins. Unless another player gets fancy and skips ahead.
+
+The friendship amulet is a good one for Goto because there are so many pano stops. The opportunity to land on one using friendship and then take another turn to immediately land on another pano manifests frequently. This will net you a 1 coin profit over the amulet and two pano cards.
+
+A unique benefit of Goto is how difficult it is to stop him from making money. If another character ever goes completely broke, it's easy to just block them from the farmhouses and lock them out of the game. This isn't something Goto needs to worry about since he financially benefits from so many stops.
+
+<a name="kushinada"></a>![Kushinada](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Kushinada.jpg){: .character-image}
+
+## 15. Kushinada the world traveler
+
+**Set:** Matsuri
+**Ability:** At the beginning of the game all other travelers give 1 coin to Kushinada. During the game, at any time, Kushinada can secretly look at her opponents calligraphy and amulet cards.
+**Coins:** 4
+
+### Power: 24-31pts
+*(18-24 coins + 3 ability + 3 rich)*
+
+Kushinada steals coins from other players. She will steal between 2-4 coins depending on player count. This makes Kushi stronger in higher player counts. In this guide she is slotted in at 27, her value in a 4 player game.
+
+Beyond just increasing her wealth, there is a value to hurting the other players. She reduces the power of her opponents which is hard to evaluate, but I am giving it a value of 3 points since she takes 1 coin which makes it ~3 points harder for them to close the gap on her. Her other minor ability to peek at travelers secret cards is a bit of a waste and I don't think it's worth anything.
+
+### Playing Kushinada – Difficulty: Easy
+
+She starts with a nice cushion of coins and you should just focus on spending your money wisely. This is a task made slightly easier by her ability to peek at calligraphy and amulet cards. Though I can think of very few uses for this ability… One of them would be to know which player has the Devotion amulet. If no one has it, then you should get it. If a player has it, you can better evaluate how much you should donate to the temple to keep up. Another reason is knowing what calligraphy cards characters have so you can block them from scoring on them.
+
+<a name="yashima"></a>![Yashima](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Yashima.jpg){: .character-image}
+
+## 14. Yashima the noble
+
+**Set:** Matsuri
+**Ability:** At intermediate inns, Yashima receives a free random amulet.
+**Coins:** 4
+
+### Power: 27pts
+*(12 coins + 12 ability + 3 consistent)*
+
+The average value of an amulet is about 4 points, most of the amulets generate a free stop while Hospitality and Fortune generate a little over 1-2 coins. Yashima picks up 3 free amulets on her journey which is great value, especially if you get the right amulets at the right time. Her three amulets get +12 ability points.
+
+### Playing Yashima – Difficulty: Medium
+
+Just because she gets amulets for free shouldn't keep her from still buying amulets when she gets the opportunity. Denying amulets to your opponents is strong. The information you get from knowing what others could be holding is also useful.
+
+With all these amulets Yashima can do some crazy combos like Friendship+Health at a farmhouse for a big income boost or Devotion+Health at a village for a big score.
+
+Her gameplay is dependent on what amulets get pulled. If you end up with an early Devotion, look for buying a sword early and possibly following through with a souvenir strategy. If you cycle through Fortune and/or Hospitality a lot you can go souvenirs or go the Foresight route. If you end up with Friendship and/or Health a lot looks to completing as many accomplishments as possible by focusing on hot springs and panoramas and getting Perfection.
+
+It isn't all fun and games for Yashima. She only starts with 4 coins and needs to tread carefully not to go broke in the first couple of days. Making the most out of the amulets is also a challenge. Her power could be much higher if she scores more than 4 points per amulet, that should be your goal.
+
+It's possible for Yashima to get a Hospitality or Fortune amulet before her meal. So even if she comes in broke, she has a 1/3 chance of lucking out.
+
+<a name="mitsukuni"></a>![Mitsukuni](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Mitsukuni.jpg){: .character-image}
+
+## 13. Mitsukuni the old man
+
+**Set:** Base
+**Ability:** 1 point for each achievement and hot spring card
+**Coins:** 6
+
+### Power: 27pts
+*(18 coins + 4 ability + 3 rich + 2 Accomplishment Boost)*
+
+I am giving Mitsukuni credit for 4 bonus points from hot springs and accomplishments (approximately 2 hot springs stops and 2 accomplishments). Generally the Bather accomplishment makes sense for Mitsukuni to go for and he is financially equipped to go for Collector or Gourmet.
+
+### Playing Mitsukuni – Difficulty: Easy
+
+Mitsukuni has enough starting money to do anything. You don't need to "go for" hot springs, just take them as they come. Once you are about halfway done with your journey start trying to see what accomplishments are within reach. Use amulets to complete accomplishments: health to double up on encounters and hot springs cards, friendship to shore up panorama completions if you are close.
+
+The Perfection calligraphy card is a good fit especially if things are going your way with accomplishments. The Foresight calligraphy is also an interesting consideration for Mitsukuni because he can save his money while going for panoramas (another free source of accomplishments), encounters, and bathhouses. Then cross the finish line with a full coin purse ready to collect those juicy points.
+
+Mitsukuni can also afford an early Devotion + Legendary sword combo.
+
+<a name="matsumi"></a>![Mutsumi](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Mutsumi.jpg){: .character-image}
+
+## 12. Mutsumi the brute
+
+**Set:** Matsuri
+**Ability:** At the first 4 inns, Mutsumi can leave the inn first, regardless of the order in which he arrived at the inn.
+**Coins:** 7
+
+### Power: 27pts
+*(21 coins + 3 consistent + 3 rich)*
+
+Mutsumi's ability is worth no points at face value. However he does happen to be rich, and his special ability is unstoppable so he ends up having a pretty high power level off those traits alone.
+
+### Playing Mutsumi – Difficulty: Easy
+
+Leaving first opens up some interesting strategies to Mutsumi since he can be 100% sure what spots he can grab out of every inn. One excellent series goes like this:
+
+Day 1: Temple – Devotion Amulet Day 3: Village – Legendary sword + Devotion
+
+Alternatively:
+
+Day 1: Village – Emaki/Shodo Day 2: Temple – Devotion or Health Day 3: Village – Sword+Devotion or Health+Souvenirs Day 4: Temple – Temple
+
+The beauty here is no one can do anything to stop Mutsumi! He gets first dibs on all these spots and can do whatever he wants and he has the coins to take full advantage.
+
+<a name="titia"></a>![Titia](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Titia.jpg){: .character-image}
+
+## 11. Titia the Dutch tourist
+
+**Set:** Matsuri
+**Ability:** Titia buys souvenirs of the art type (statue) and legendary objects for 1 coin less than normal
+**Coins:** 6
+
+### Power: 27pts
+*(18 coins + 6 ability + 3 rich)*
+
+Like other shop characters, I am giving Titia credit for saving 2 coins on souvenirs over the course of the journey. She also happens to be rich.
+
+### Playing Titia – Difficulty: Easy
+
+Titia is a village-centric character who should be earning the majority of her points on souvenirs. She differs from the other shop characters because she gets a discount on legendary souvenirs. Spending 1 less coin on legendary souvenirs is a major advantage. She can purchase swords for only 2 coins which is an outstanding value. Buying both swords would be a very strong strategy with Titia, something to strive for. The downside is you only get a 2-coin donation with devotion.
+
+<a name="chuubei"></a>![Chuubei](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Chuubei.jpg){: .character-image}
+
+## 10. Chuubei the messenger
+
+**Set:** Base
+**Ability:** Encounter at each intermediate inn
+**Coins:** 4
+
+### Power: 27.5pts
+*(12 coins + 10.5 ability + 3 consistent + 2 Accomplishment Boost)*
+
+Encounters are worth about 3.5 each. Chuubei will score 3 of them over the course of the journey for 10.5 bonus points. These three encounters will probably lock him up for the Chatterbox achievement as well.
+
+### Playing Chuubei – Difficulty: Easy
+
+Because of his jump on Chatterbox, grabbing the Perfection calligraphy is a good early move. You can rest easy knowing at least one accomplishment is going to fall into your lap and work on another.
+
+There is a good chance Chuubei is going to pull some free panorama cards from his encounters, and he ends up being a favorite to complete some panoramas if that turns out to be the case. Keep your eyes on that so you can pivot and focus on it.
+
+<a name="jirocho"></a>![Jirocho](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Jirocho.jpg){: .character-image}
+
+## 9. Jirocho the Yakuza
+
+**Set:** Crossroads
+**Ability:** Can gamble 1 coin at each intermediate inn
+**Coins:** 5
+
+### Power: 28.5pts
+*(15 coins + 10.5 ability + 3 consistent)*
+
+Basically Jirocho gets to buy and use a fortune amulet at each intermediate inn. I was pretty "meh" on the fortune amulet in my guide, but that is only because you are taking the fortune amulet over other more lucrative amulets. Jirocho gets it for free!
+
+The expected profit off the gamble is +1.16 coins, and he gets to gamble 3 times which gives him a total expected profit of about 3.5 coins. Of course gambling is highly variable. If you live the dream and roll x4 each time you end up +9 coins which is insane! If we separate the high and low rolls Jirocho's power level could be as low as 12pts and as high as 45pts! Generally speaking this character is going to do pretty well financially and will be able to follow a variety of strategies.
+
+I actually considered giving Jirocho the "rich" bonus. Even though he doesn't start with 6+ coins, he will essentially get 6+ after his first inn… But because it is a gamble I decided not to.
+
+### Playing Jirocho – Difficulty: Easy
+
+In order to take advantage of Jirocho's gamble at every inn you need to make sure you are walking into the inn with at least 1 coin so make sure you do not go broke! You don't want to miss out on the opportunity to make extra money.
+
+If you decide to keep a tight grip on your purse in the first day to see how your first gamble turns out you might get a nice head start on a good Foresight outcome. Otherwise you can play Jirocho however you want and probably do fine.
+
+<a name="zen-emon"></a>![Zen-emon](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Zen-emon.jpg){: .character-image}
+
+## 8. Zen-emon the merchant
+
+**Set:** Base
+**Ability:** Can purchase one souvenir for 1 coin at each village
+**Coins:** 6
+
+### Power: 32pts
+*(18 coins + 9 ability + 3 rich + 2 Accomplishment Boost)*
+
+Zen-emon's ability saves him coins, in my point evaluation I assume he will save himself 3 coins over the course of the game from purchasing souvenirs. This seems reasonable as you can buy a 3-coin item for 1, or a 2-coin item for 1 on your village stops.
+
+### Playing Zen-emon – Difficulty: Medium
+
+Zen-emon is well-suited for a village strategy so you should lean into that when playing him. Pick up the Nostalgia calligraphy as soon as you can because picking up a bunch of souvenirs will be your priority. Don't be afraid to skip a few spots if it will get you to another shop. Maximize the number of times you can buy 1-cost items, this will make you a shoe-in for the Collector accomplishment and pay out on Nostalgia and Emaki/Shodo legendary items.
+
+<a name="yoshiyasu"></a>![Yoshiyasu](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Yoshiyasu.jpg){: .character-image}
+
+## 7. Yoshiyasu the Functionary
+
+**Set:** Base
+**Ability:** At an encounter stop, Yoshiyasu may draw 2 encounter cards and choose one.
+**Coins:** 9
+
+### Power: 32pts
+*(27 coins + 2 ability + 3 rich)*
+
+Yoshi extracts more value from encounter stops than other characters. The average value of an encounter is 3.5pts but for Yoshi I kicked that up to 4.5pts because of his ability to get the higher value encounter of his choice. He also has a higher chance of finding the almighty Kuge in the encounter pool.
+
+### Playing Yoshiyasu – Difficulty: Easy
+
+One of the shortcomings of Yoshi's ability is that he must choose to draw an encounter instead of buying a calligraphy card which is often a better option, certainly early in the game. The good news is no matter what happens wealth is his true special ability.
+
+<a name="ayumu"></a>![Ayumu](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Ayumu.jpg){: .character-image}
+
+## 6. Ayumu the walker
+
+**Set:** Matsuri
+**Ability:** Meal cards only cost Ayumu 1 coin. In addition, when at a village space the souvenir from the small objects (little fan) group are free.
+**Coins:** 5
+
+### Power: 35pts
+*(15 coins + 14 ability + 3 consistent + 3 accomplishment boost)*
+
+Ayumu actually has two different and unrelated abilities. His inn ability triggers at every inn and is similar to Kinko's ability. He saves 1 or 2 coins on all of his meals to a minimum of 1. Often any character can spend only 1 on a meal, Ayumu can do so even if no 1-cost meals are available. As a matter of fact he can always buy the most expensive meal for only 1 coin to lock up the Gourmet accomplishment.
+
+His second ability is to grab fan-type souvenirs for free. Alone this isn't very powerful because you can't plan on getting fans, and if you do get a bunch of fans they don't contribute to your combo. On the other hand grabbing free items pads your souvenirs count for the collector accomplishment and Nostalgia calligraphy. He can also get double points by grabbing the Emaki or Shodo legendary items.
+
+I calculated his ability score by giving him 4 coins he saved from meals, which are worth 12 points, and then granting him an additional 2 points for free souvenir pick ups. Ayumu is also getting +3 for accomplishment boost instead of +2 because I feel he is almost certain to get either Collector or Gourmet.
+
+### Playing Ayumu – Difficulty: Easy
+
+The primary reason characters are hard to play is that they can easily get low on funds and end up being unable to eat a meal. Characters with abilities that mitigate this problem tend to be easier to play. Ayumu will almost always be able to eat even if he has only a single coin which makes planning his days much easier.
+
+As I said before, Nostalgia calligraphy and Emaki/Shodo legendary items are great buys for Ayumu to score as many points as possible from his free fan-type souvenirs. If you manage to pick these up, try to grab a friendship amulet to hit as many villages as you can to get even more fans.
+
+<a name="hirotada"></a>![Hirotada](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Hirotoda.jpg){: .character-image}
+
+## 5. Hirotada the priest
+
+**Set:** Base
+**Ability:** At each temple stop, Hirotada receives 1 coin donation from the bank.
+**Coins:** 8
+
+### Power: 35pts
+*(24 coins + 8 ability + 3 rich)*
+
+I am giving Hirotada credit for scoring 2 free donations to the temple being worth 4 pts each (1 for the donation, and 3 for the temple value). Of course he is also very rich which is where the majority of his power level comes from.
+
+### Playing Hirotada – Difficulty: Easy
+
+Hirotada's ability is excellent because he ends up gaining temple value while still being able to buy an amulet to further his strategy. Other characters have to make hard choices deciding if they want to donate to the temple or purchasing an amulet.
+
+Go to the temple as often as you can to get your free donations, block other players and utilize amulets to gain points in other ways. Hirotada is very well suited to maximizing Foresight because he doesn't actually need to "waste" any coins at the temple. He can instead buy Hospitality and Fortune amulets at every temple to score more Foresight points.
+
+<a name="kinko"></a>![Kinko](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Kinko.jpg){: .character-image}
+
+## 4. Kinko the Ronin
+
+**Set:** Base
+**Ability:** Meals cost Kinko 1 less coin
+**Coins:** 7
+
+### Power: 41pts
+*(21 coins + 4 ability + 3 rich + 3 consistent + 2 Accomplishment Boost)*
+
+On top of being rich, his ability will always grant him another +4 coins bringing his coin value to a massive 11 (although I am not factoring these 4 coins as they are not guaranteed). Kinko is rich and consistent making him one of the most powerful characters in the game. Because he can buy meals 1 level higher for the same price, he is getting an accomplishment boost bonus toward Gourmet.
+
+### Playing Kinko – Difficulty: Easy
+
+Being such a solid character, Kinko can follow a variety of strategies. He can easily play the souvenir strategy, either going for sets, or just buying swords. He can grab Foresight and work on maximizing his income while blocking others from farmhouses. Donating 3 coins at the temple doesn't hinder him as badly as many others. It is difficult to do poorly with Kinko.
+
+<a name="misaki"></a>![Misaki](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Misaki.jpg){: .character-image}
+
+## 3. Misaki the disciple
+
+**Set:** Matsuri
+**Ability:** Every time a traveler (him or another) stops at a temple space, Misaki takes 1 coin from the bank
+**Coins:** 4
+
+### Power: 42pts/33pts
+*(12 coins + 18/27 ability + 3 consistent)*
+
+Misaki has a range of points because the amount of temple stops varies from small game to big game (either 6 stops or 9 stops). In both cases though there are plenty of opportunities for spare change to come his way.
+
+### Playing Misaki – Difficulty: Easy
+
+Misaki has a great advantage in his ability to generate constant income. One of the best early game plays is to purchase a legendary sword even though he only starts with 4 coins. Remember, Misaki gains a coin even when he visits the temple himself, so don't be shy about going there. It is still just as important as ever to block other players from accessing the temple.
+
+Misaki can also be played the way of the money-hoarder, grabbing the Foresight amulet and playing a frugal game while accepting other player's donations.
+
+<a name="takeru"></a>![Takeru](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Takeru.jpg){: .character-image}
+
+## 2. Takeru the counselor
+
+**Set:** Matsuri
+**Ability:** Every time a traveler (him or another) stops at an Encounters space, Takeru takes 1 coin from the bank.
+**Coins:** 4
+
+### Power: 42pts/36pts
+*(12 coins + 21/27 ability + 3 consistent)*
+
+Takeru's power depends on how big the game is, because the number of encounter stops increases from 7 to 9 from a small to big game. In either case Takeru earns plenty of extra coins. Unlike some other stops encounter stops are never missed (because they are free) so he will always get maximum value from his ability.
+
+### Playing Takeru – Difficulty: Easy
+
+Takeru can feel comfortable because, like Misaki before him, he will have a constant stream of coins coming in. When you are playing make sure plan ahead and be aware of how many coins you are going to earn and when. He can go broke in the middle of the day knowing 2 encounter spots are still upcoming which will ensure he has enough money to eat.
+
+<a name="musubi"></a>![Musubi](/assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-and-matsuri/Musubi.jpg){: .character-image}
+
+## 1. Musubi the rogue
+
+**Set:** Matsuri
+**Ability:** When stopping at intermediate inns, Musubi can take 1 coin from each of his two neighboring travelers. If Musubi is unable to take 2 coins from travelers (traveler has no coins, or Musubi arrived first or last) he takes coins from the bank.
+**Coins:** 6
+
+### Power: 48pts
+*(18 coins + 24 ability + 3 consistent + 3 rich)*
+
+Musubi is a true powerhouse. He already starts rich with 6 coins, but then he is GUARANTEED to "earn" 2 coins at each intermediate inn. Essentially he starts with 12 coins which is more than anyone else in the game. The best other players can do is try not to get pick-pocketed by him, but that isn't even his problem. Even if he doesn't end up neighboring two players at the inn, he still grabs the extra coin from the bank.
+
+Then there is the consideration of how much damage he is doing to other characters when he is taking coins from them. Players may play worse and make suboptimal moves to avoid being robbed, or they will get robbed and lose that coin (a potential 3 points). This will happen at 3 inns! If he double steals every time that is 18 points he is blocking from his competition.
+
+I am granting Musubi an additional 6 ability points for the damage he is doing to his opponents. Though a more accurate power measurement could be taken by subtracting 6 points from power levels of all of his opponents before the game starts.
+
+### Playing Musubi – Difficulty: Easy
+
+Like many other rich characters Musubi can basically do whatever he wants. Going for souvenirs is the most obvious strategy since he can easily afford to buy both swords, or shoot for maximum souvenirs. Musubi is also very well suited to get the Foresight calligraphy and cross the finish line with 6+ coins.
+
+The added benefit to this character is other players might skip spots and rush into the inn, or take inefficient spots to delay going into the inn to avoid being robbed. They might also be unable to afford a meal if they do get robbed costing them some extra damage and opening up free opportunities for Musubi to catch up.
+
+# Final Thoughts
+
+Nothing in this guide is concrete of course and player skill has plenty to do with winning. I feel like these are directionally accurate power levels and a good way to judge characters against each other, but it's possible to win with anyone. The art of the game is to perform better than the average expectations. That is up to you.
+
+Once again: make sure to check out my [Tokaido Crossroads Guide for Expert Travelers](/tokaido-crossroads-guide-for-expert-travelers/) if you haven't already.
