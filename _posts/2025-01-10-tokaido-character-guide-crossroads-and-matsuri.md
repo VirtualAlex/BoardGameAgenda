@@ -8,7 +8,7 @@ hero_image: /assets/images/posts/2025-01-10-tokaido-character-guide-crossroads-a
 description: "Ultimate analysis of all Tokaido characters including Crossroads and Matsuri expansions. Tier list, ranking, power levels and strategy for each character!"
 ---
 
-Make sure to check out my [Tokaido Crossroads Guide for Expert Travelers](/tokaido-crossroads-guide-for-expert-travelers/)!
+Make sure to check out my [Tokaido Crossroads Guide for Expert Travelers](/guides/2025/09/10/tokaido-crossroads-guide-for-expert-travelers.html)!
 
 # The Tier List
 
@@ -47,7 +47,7 @@ Make sure to check out my [Tokaido Crossroads Guide for Expert Travelers](/tokai
 
 # Using this guide
 
-When I first got the idea of rating every character I thought it would be impossible. There is just too much random stuff going on to get that specific. As my [Tokaido Guide for Expert Travelers](/tokaido-crossroads-guide-for-expert-travelers/) approached completion I realized that it's possible to get a pretty good pulse on all the random events in the game, and it actually is possible to give characters a power level. Here is how I did it:
+When I first got the idea of rating every character I thought it would be impossible. There is just too much random stuff going on to get that specific. As my [Tokaido Guide for Expert Travelers](/guides/2025/09/10/tokaido-crossroads-guide-for-expert-travelers.html) approached completion I realized that it's possible to get a pretty good pulse on all the random events in the game, and it actually is possible to give characters a power level. Here is how I did it:
 
 ## Points per coin
 
@@ -767,4 +767,4 @@ The added benefit to this character is other players might skip spots and rush i
 
 Nothing in this guide is concrete of course and player skill has plenty to do with winning. I feel like these are directionally accurate power levels and a good way to judge characters against each other, but it's possible to win with anyone. The art of the game is to perform better than the average expectations. That is up to you.
 
-Once again: make sure to check out my [Tokaido Crossroads Guide for Expert Travelers](/tokaido-crossroads-guide-for-expert-travelers/) if you haven't already.
+Once again: make sure to check out my [Tokaido Crossroads Guide for Expert Travelers](/guides/2025/09/10/tokaido-crossroads-guide-for-expert-travelers.html) if you haven't already.
